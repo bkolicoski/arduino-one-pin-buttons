@@ -5,7 +5,7 @@ void setup()
 
 void loop()
 {
-  int value = analogRead(A1);
+  int value = analogRead(A0);
   if (value > 800 && value < 1000) {
     Serial.println("Button1");
   } else if (value > 750 && value < 800) {
